@@ -14,8 +14,8 @@ Atuadores: Simula motores, rodas, braços robóticos e articulações
 
 O RViz é a interface gráfica de monitoramento. 
 
-O que faz: Permite visualizar o que o robô está "pensando" e percebendo.
-Visualização: Mostra o modelo 3D do robô, mapas gerados pelo ambiente, rotas de navegação planejadas e nuvens de pontos.
+O que faz - Permite visualizar o que o robô está "pensando" e percebendo.
+Visualização - Mostra o modelo 3D do robô, mapas gerados pelo ambiente, rotas de navegação planejadas e nuvens de pontos.
 
 ## V-REP
 - O V-REP (atualmente renomeado para CoppeliaSim) é um poderoso software de simulação robótica 3D. Ele funciona criando um ambiente digital para projetar, programar e testar robôs e sistemas de automação antes de construí-los no mundo real.
