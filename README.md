@@ -1,6 +1,7 @@
 ## Simuladores
 
 ## ROS 1
+- O simulador do ROS 1 (Robot Operating System) funciona como um ambiente virtual que permite testar e desenvolver código para robôs sem precisar do hardware físico. Ele atua criando uma "cópia digital" do robô e do mundo real, processando comandos e retornando dados de sensores exatamente como um robô de verdade.
 
 ## V-REP
 - O V-REP (atualmente renomeado para CoppeliaSim) é um poderoso software de simulação robótica 3D. Ele funciona criando um ambiente digital para projetar, programar e testar robôs e sistemas de automação antes de construí-los no mundo real.
