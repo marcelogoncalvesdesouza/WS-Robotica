@@ -4,7 +4,7 @@
 - O simulador do ROS 1 (Robot Operating System) funciona como um ambiente virtual que permite testar e desenvolver código para robôs sem precisar do hardware físico. Ele atua criando uma "cópia digital" do robô e do mundo real, processando comandos e retornando dados de sensores exatamente como um robô de verdade.
 - O ecossistema de simulação do ROS 1 é composto principalmente por duas ferramentas que trabalham juntas:
 1. O Simulador Físico: Gazebo
-O Gazebo é o simulador principal. Ele simula a física do mundo real. 
+É o simulador principal. Ele simula a física do mundo real. 
 
 O que faz: Calcula gravidade, colisões, atrito e massa.
 Sensores: Simula o que o robô "vê" ou "sente", como câmeras, scanners a laser (LiDAR), sensores ultrassônicos e GPS.
