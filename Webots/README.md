@@ -17,7 +17,7 @@ https://cyberbotics.com/doc/guide/foreword
 - <b>Robôs Bioinspirados</b>: Exemplos interessantes de robôs com locomoção não tradicional, como salamandras robóticas com pele deformável, cobras e robôs hexápodes.
 - <b>Veículos Subaquáticos (AUVs)</b>: Ambientes aquáticos simulados com submersíveis que lidam com empuxo, física de fluidos e visibilidade turva. 
 
-Todos esses exemplos acompanham os códigos dos controladores (escritos principalmente em Python, C++ ou MATLAB), permitindo modificar o ambiente ou o comportamento do robô
+Todos esses exemplos acompanham os códigos dos controladores (escritos principalmente em Python, C++ ou MATLAB), permitindo modificar o ambiente ou o comportamento do robô.
 
 A lista completa com dezenas de mundos pode ser encontrada diretamente na Documentação Oficial do Webots. Para executá-los, basta abrir o Webots, ir ao menu File e selecionar <i>Open Sample World</i>.
 
