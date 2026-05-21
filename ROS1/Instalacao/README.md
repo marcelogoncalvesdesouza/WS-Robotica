@@ -1,4 +1,4 @@
-## Programa de Pós-graduação em Modelagem Computacional - PPGMC
+
 
 ## ISO do Ubuntu 24.04.4 LTS
 ```
@@ -25,11 +25,3 @@ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main
 - 08 
 - 09 
 - 10 
-
-ATUALIZAÇÃO DE REPOSITÓRIO
-```
-git add .
-git commit -m "Update."
-git push -u origin main
-```
-
