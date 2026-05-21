@@ -7,7 +7,7 @@ Para a instalação correta deve-se utilizar a versão abaixo da distro Ubuntu. 
 https://ubuntu.com/download/desktop/thank-you?version=24.04.4&architecture=amd64&lts=true
 ```
 
-## Instalação do ROS - Noetic
+## Instalação do ROS 1 - Noetic
 ```
 https://wiki.ros.org/noetic/Installation/Ubuntu
 ```
@@ -26,31 +26,38 @@ sudo apt install curl
 ```
 curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
 ```
-- Passo 04 
+- Passo 04: atualizar o índice de pacotes Debian
 ```
-x
+sudo apt update
 ```
-- Passo 05 
+- Passo 05: instalação da versão desktop full (Tudo incluído no Desktop, além de simuladores 2D/3D e pacotes de percepção 2D/3D).
 ```
-x
+sudo apt install ros-noetic-desktop-full
 ```
-- Passo 06 
+- Passo 06: executar este script para todos os terminais bash usar o ROS.
 ```
-x
+source /opt/ros/noetic/setup.bash
 ```
-- Passo 07 
+- Passo 07: teste de execução do ROS 1
 ```
-x
+roscore
 ```
-- Passo 08 
+- Passo 08: editar o bashrc
 ```
-x
+sudo gedit ~/.bashrc
 ```
-- Passo 09 
+Adicionar no final do arquivo:
 ```
-x
+source /opt/ros/noetic/setup.bash
 ```
-- Passo 10 
+Obs.: caso instalar outra versão do ROS 1 ou o Ros 2 comentar esta linha para não haver conflito.
+- Passo 09: teste final em três terminais
 ```
-x
+roscore
+```
+```
+rosrun roscpp_tutorials talker
+```
+```
+rosrun roscpp_tutorials listener
 ```
