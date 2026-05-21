@@ -14,16 +14,15 @@ https://www.ros.org/
 É o simulador principal. Ele simula a física do mundo real. 
 
 ## O que faz:
-- Calcula gravidade, colisões, atrito e massa.
-- Sensores: Simula o que o robô "vê" ou "sente", como câmeras, scanners a laser (LiDAR), sensores ultrassônicos e GPS.
-- Atuadores: Simula motores, rodas, braços robóticos e articulações
+- <b>Cálculos</b>: Calcula gravidade, colisões, atrito e massa.
+- <b>Sensores</b>: Simula o que o robô "vê" ou "sente", como câmeras, scanners a laser (LiDAR), sensores ultrassônicos e GPS.
+- <b>Atuadores</b>: Simula motores, rodas, braços robóticos e articulações
 
 # A Ferramenta de Visualização: RViz
 
 O RViz é a interface gráfica de monitoramento. 
 
 ## O que faz:
-- Permite visualizar o que o robô está "pensando" e percebendo.
-- Visualização - Mostra o modelo 3D do robô, mapas gerados pelo ambiente, rotas de navegação planejadas e nuvens de pontos.
+- <b>Visualização</b>: Permite visualizar o que o robô está "pensando" e percebendo e mostra o modelo 3D do robô, mapas gerados pelo ambiente, rotas de navegação planejadas e nuvens de pontos.
 
 [Voltar](https://github.com/marcelogoncalvesdesouza/WS-Robotica/tree/main)
