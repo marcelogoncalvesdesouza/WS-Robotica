@@ -2,12 +2,14 @@
 
 # ROS 1 (<i>Robot Operating System 1</i>)
 
+### Características
+
 - Framework para desenvolvimento de software para robótica
 - Open source
 - Grande modularidade e compartilhamento
 - Comunidade ativa
 
-<b>Site oficial</b>
+### Site oficial
 ```
 https://www.ros.org/
 ```
