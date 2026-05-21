@@ -7,7 +7,7 @@ Site oficial
 https://www.ros.org/
 ```
 
-- O simulador do ROS 1 (Robot Operating System) funciona como um ambiente virtual que permite testar e desenvolver código para robôs sem precisar do hardware físico. Ele atua criando uma "cópia digital" do robô e do mundo real, processando comandos e retornando dados de sensores exatamente como um robô de verdade.
+- O simulador do <b>ROS 1</b> (<i>Robot Operating System</i>) funciona como um ambiente virtual que permite testar e desenvolver código para robôs sem precisar do hardware físico. Ele atua criando uma "cópia digital" do robô e do mundo real, processando comandos e retornando dados de sensores exatamente como um robô de verdade.
 - O ecossistema de simulação do ROS 1 é composto principalmente por duas ferramentas que trabalham juntas:
 
 # O Simulador Físico: Gazebo
