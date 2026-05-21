@@ -22,7 +22,7 @@ https://www.ros.org/
 
 O RViz é a interface gráfica de monitoramento. 
 
-## O que faz
+## O que faz:
 - Permite visualizar o que o robô está "pensando" e percebendo.
 - Visualização - Mostra o modelo 3D do robô, mapas gerados pelo ambiente, rotas de navegação planejadas e nuvens de pontos.
 
