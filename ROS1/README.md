@@ -1,6 +1,6 @@
 [Voltar](https://github.com/marcelogoncalvesdesouza/WS-Robotica/tree/main)
 
-# ROS1 (Robot Operating System 1)
+# ROS 1 (Robot Operating System 1)
 
 Site oficial
 ```
@@ -15,8 +15,8 @@ https://www.ros.org/
 
 ## O que faz:
 - Calcula gravidade, colisões, atrito e massa.
- -Sensores: Simula o que o robô "vê" ou "sente", como câmeras, scanners a laser (LiDAR), sensores ultrassônicos e GPS.
- -Atuadores: Simula motores, rodas, braços robóticos e articulações
+- Sensores: Simula o que o robô "vê" ou "sente", como câmeras, scanners a laser (LiDAR), sensores ultrassônicos e GPS.
+- Atuadores: Simula motores, rodas, braços robóticos e articulações
 
 # A Ferramenta de Visualização: RViz
 
