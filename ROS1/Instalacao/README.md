@@ -12,16 +12,43 @@ https://wiki.ros.org/noetic/Installation/Ubuntu
 
 COMANDOS
 
-- 01 Setup your sources.list
+- Passo 01 Setup your sources.list
 ```
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 ```
-- 02 
-- 03 
-- 04 
-- 05 
-- 06 
-- 07 
-- 08 
-- 09 
-- 10 
+- Passo 02 
+```
+x
+```
+- Passo 03 
+```
+x
+```
+- Passo 04 
+```
+x
+```
+- Passo 05 
+```
+x
+```
+- Passo 06 
+```
+x
+```
+- Passo 07 
+```
+x
+```
+- Passo 08 
+```
+x
+```
+- Passo 09 
+```
+x
+```
+- Passo 10 
+```
+x
+```
