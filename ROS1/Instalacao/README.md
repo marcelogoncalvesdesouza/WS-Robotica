@@ -14,11 +14,11 @@ https://wiki.ros.org/noetic/Installation/Ubuntu
 
 ### COMANDOS
 
-- Passo 01: configuração d alista de recursos
+- Passo 01: configuração da lista de recursos
 ```
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 ```
-- Passo 02: Instalar o curl (ferramenta de trnsferência de dados)
+- Passo 02: Instalar o curl (ferramenta de transferência de dados)
 ```
 sudo apt install curl
 ```
