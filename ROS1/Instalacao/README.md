@@ -1,16 +1,18 @@
 [Voltar](https://github.com/marcelogoncalvesdesouza/WS-Robotica/tree/main/ROS1)
 
+Para a instalação correta deve-se utilizar a versão abaixo da distro Ubuntu. Recoenda-se utilizar uma máquina virtual para a utilização do framework (última versão - descontinuada - não recebe mais suporte, atualizações ou correções).
+
 ## ISO do Ubuntu 24.04.4 LTS
 ```
 https://ubuntu.com/download/desktop/thank-you?version=24.04.4&architecture=amd64&lts=true
 ```
 
-## Instalação do ROS Noetic
+## Instalação do ROS - Noetic
 ```
 https://wiki.ros.org/noetic/Installation/Ubuntu
 ```
 
-COMANDOS
+<b>COMANDOS</b>
 
 - Passo 01 Setup your sources.list
 ```
