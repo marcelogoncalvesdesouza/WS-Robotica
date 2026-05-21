@@ -13,12 +13,11 @@ https://www.ros.org/
 ```
 
 - [Instalação](https://github.com/marcelogoncalvesdesouza/WS-Robotica/tree/main/ROS1/Instalacao)
-
 - O simulador do <b>ROS 1</b> (<i>Robot Operating System</i>) funciona como um ambiente virtual que permite testar e desenvolver código para robôs sem precisar do hardware físico. Ele atua criando uma "cópia digital" do robô e do mundo real, processando comandos e retornando dados de sensores exatamente como um robô de verdade.
 - O ecossistema de simulação do ROS 1 é composto principalmente por duas ferramentas que trabalham juntas:
 
 ## O Simulador Físico: Gazebo
-É o simulador principal. Ele simula a física do mundo real. 
+- É o simulador principal. Ele simula a física do mundo real. 
 
 ## O que faz:
 - <b>Cálculos</b>: Calcula gravidade, colisões, atrito e massa.
@@ -26,17 +25,38 @@ https://www.ros.org/
 - <b>Atuadores</b>: Simula motores, rodas, braços robóticos e articulações
 
 ## A Ferramenta de Visualização: RViz
-
-O RViz é a interface gráfica de monitoramento. 
+- O RViz é a interface gráfica de monitoramento. 
 
 ## O que faz:
 - <b>Visualização</b>: Permite visualizar o que o robô está "pensando" e percebendo e mostra o modelo 3D do robô, mapas gerados pelo ambiente, rotas de navegação planejadas e nuvens de pontos.
 
 ## Elementos básicos
-
 - <b>Nós (<i>nodes</i>)</b>: executáveis, processos, códigos que realizam alguma atividade, não necessariamente no mesmo sistema
 - <b>Tópicos (<i>topics</i>)</b>: forma de troca de informações (mensagens) entre os nós
 - <b>Serviços (<i>services</i>)</b>: interação entre nós de forma a solicitar uma ação ou dado com uma resposta
 - <b>Pacotes (<i>packages</i>)</b>: forma de organização dos arquivos e códigos no ROS
+
+## Exemplo 01
+- Motores com enconders (C++)
+- Raspberry Pi (C++)
+- Câmera (Python)
+
+### Links
+- ROS Wiki
+```
+https://wiki.ros.org
+```
+- ROS Tutorials
+```
+https://wiki.ros.org/ROS/tutorials
+```
+- ROS Answer
+```
+https://answers.ros.org
+```
+- ROS Discourse
+```
+https://discourse.ros.org
+```
 
 [Voltar](https://github.com/marcelogoncalvesdesouza/WS-Robotica/tree/main)
