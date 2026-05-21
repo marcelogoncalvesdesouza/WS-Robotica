@@ -2,7 +2,12 @@
 
 # ROS 1 (<i>Robot Operating System 1</i>)
 
-Site oficial
+### Framework para desenvolvimento de software para robótica
+### Open source
+### Grande modularidade e compartilhamento
+### Comunidade ativa
+
+<b>Site oficial</b>
 ```
 https://www.ros.org/
 ```
@@ -26,5 +31,12 @@ O RViz é a interface gráfica de monitoramento.
 
 ## O que faz:
 - <b>Visualização</b>: Permite visualizar o que o robô está "pensando" e percebendo e mostra o modelo 3D do robô, mapas gerados pelo ambiente, rotas de navegação planejadas e nuvens de pontos.
+
+## Elementos básicos
+
+- <b>Nós (<i>nodes</i>)</b>: executáveis, processos, códigos que realizam alguma atividade, não necessariamente no mesmo sistema
+- <b>Tópicos (<i>topics</i>)</b>: forma de troca de informações (mensagens) entre os nós
+- <b>Serviços (<i>services</i>)</b>: interação entre nós de forma a solicitar uma ação ou dado com uma resposta
+- <b>Pacotes (<i>packages</i>)</b>: forma de organização dos arquivos e códigos no ROS
 
 [Voltar](https://github.com/marcelogoncalvesdesouza/WS-Robotica/tree/main)
