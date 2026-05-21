@@ -2,10 +2,10 @@
 
 # ROS 1 (<i>Robot Operating System 1</i>)
 
-### Framework para desenvolvimento de software para robótica
-### Open source
-### Grande modularidade e compartilhamento
-### Comunidade ativa
+- Framework para desenvolvimento de software para robótica
+- Open source
+- Grande modularidade e compartilhamento
+- Comunidade ativa
 
 <b>Site oficial</b>
 ```
