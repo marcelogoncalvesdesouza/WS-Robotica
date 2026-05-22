@@ -2,9 +2,9 @@
 
 Para a instalação correta deve-se utilizar a versão abaixo da distro Ubuntu. Recomenda-se criar uma máquina virtual para a utilização do framework (última versão, descontinuada, não recebe mais suporte, atualizações ou correções).
 
-## ISO do Ubuntu 24.04.4 LTS
+## ISO do Ubuntu 20.04 (Focal Fossa) LTS
 ```
-https://ubuntu.com/download/desktop/thank-you?version=24.04.4&architecture=amd64&lts=true
+https://releases.ubuntu.com/focal/ubuntu-20.04.6-desktop-amd64.iso
 ```
 
 ## Instalação do ROS 1 - Noetic
@@ -61,3 +61,5 @@ rosrun roscpp_tutorials talker
 ```
 rosrun roscpp_tutorials listener
 ```
+
+Criação de um ROS Workspace
