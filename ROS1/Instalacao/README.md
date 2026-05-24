@@ -69,8 +69,6 @@ Obs.: ativando o Turtlesim
 - Passo 01: roscore
 - Passo 02: rosrun turtlesim turtlesim_node
 
-Criação de um ROS Workspace
-
 ### Criando uma workspace
 
 - mkdir catkin_ws -> cd catkin_ws
@@ -78,3 +76,30 @@ Criação de um ROS Workspace
 - catkin_init_workspace -> ls -> cd .. -> ls
 - catkin_make (compilar o ws)
 - ls (build, devel e src)
+- source devel/setup.bash (o sistema reconhece a ws)
+
+### Conceitos do ROS
+
+- O ROS é uma rede de processamento peer-to-peer
+- Conceitos básicos
+Master - nodo principal que gerencia a rede
+Nodo - processo de execução
+Serviço de parâmetros distribuídos - acessíveis por todos os nodos
+Serviços - comunicação direta entre dois processos
+Tópicos - comunicação multicast entre vários processos
+Bags - sistema de log de mensagens
+
+## Master (roscore)
+
+- Elemento central do ROS
+- Responsável pelo registro de nodos, tópicos, serviços e parâmetros da rede
+- A principal tarefa é permitir que os nodos se localizem
+- Garante uma comunicação direta (peer-to-peer) entre os nodos
+
+## Nodo (rosnode [cleanup, info, kill, list, machine, ping])
+
+- Processos em execução
+- Um sistema de controle de um robô geralmente utiliza vários nodos
+- Por exemplo um nodo é responsável pelo controle da câmera e outro nodo é responsãvel por reconhecer objetos
+- Um nodo é implementado utilizando as bibliotecas cliente do ROS como roscpp (C++) ou rospy (Python)
+
