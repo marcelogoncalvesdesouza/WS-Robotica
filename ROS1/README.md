@@ -43,6 +43,16 @@ https://www.ros.org/
 - <b>Launchs</b>: arquivos xml que especificam a execução de um sistema e seus parâmetros
 - <b>Tópicos (<i>topics</i>)</b>: forma de troca de informações (mensagens) entre os nós
 
+## Espaço de trabalho (catkin_ws)
+- Pacotes: um package é como uma aplicação ROS é feita
+- Cada pacote pode possuir uma ou mais aplicações que utiliza uma ou mais de uma linguagem
+- A workspace é onde ficam os packages
+
+## Estrutura de um WS
+- build: arquivos compilados
+- devel: variáveis de ambiente
+- src: pacotes e aplicações
+
 ## Exemplo 01
 - Motores com enconders (C++)
 - Raspberry Pi (C++)

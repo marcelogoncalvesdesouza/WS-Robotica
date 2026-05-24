@@ -70,3 +70,11 @@ Obs.: ativando o Turtlesim
 - Passo 02: rosrun turtlesim turtlesim_node
 
 Criação de um ROS Workspace
+
+### Criando uma workspace
+
+- mkdir catkin_ws -> cd catkin_ws
+- mkdir src (pacotes da ws) -> cd src
+- catkin_init_workspace -> ls -> cd .. -> ls
+- catkin_make (compilar o ws)
+- ls (build, devel e src)
