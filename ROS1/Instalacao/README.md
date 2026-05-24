@@ -103,3 +103,18 @@ Bags - sistema de log de mensagens
 - Por exemplo um nodo é responsável pelo controle da câmera e outro nodo é responsãvel por reconhecer objetos
 - Um nodo é implementado utilizando as bibliotecas cliente do ROS como roscpp (C++) ou rospy (Python)
 
+## Serviços: parâmetros distribuídos (rosparam [delete, dump, get, list, load, set])
+
+- Dicionário multivariado compartilhado entre todos os nodos
+- Os nodos podem acessar e modificar as variáveis em tempo de execução utilizando a ROS API
+- Os parâmetros são definidos por uma dupla (nome, valor)
+
+<b>EXEMPLO</b>
+- roscore
+- rosrun turtlesim turtlesim_node
+- rosparam list
+- rosparam get /turtlesim/background_b
+- rosparam set /turtlesim/background_b 0
+- rosparam get /turtlesim/background_b
+- rosservice call /reset
+
