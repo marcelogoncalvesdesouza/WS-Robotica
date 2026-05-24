@@ -96,14 +96,16 @@ Bags - sistema de log de mensagens
 - A principal tarefa é permitir que os nodos se localizem
 - Garante uma comunicação direta (peer-to-peer) entre os nodos
 
-## Nodo (rosnode [cleanup, info, kill, list, machine, ping])
+## Nodo
+### (rosnode [cleanup, info, kill, list, machine, ping])
 
 - Processos em execução
 - Um sistema de controle de um robô geralmente utiliza vários nodos
 - Por exemplo um nodo é responsável pelo controle da câmera e outro nodo é responsãvel por reconhecer objetos
 - Um nodo é implementado utilizando as bibliotecas cliente do ROS como roscpp (C++) ou rospy (Python)
 
-## Serviços: parâmetros distribuídos (rosparam [delete, dump, get, list, load, set])
+## Serviços: parâmetros distribuídos
+### (rosparam [delete, dump, get, list, load, set])
 
 - Dicionário multivariado compartilhado entre todos os nodos
 - Os nodos podem acessar e modificar as variáveis em tempo de execução utilizando a ROS API
@@ -117,4 +119,35 @@ Bags - sistema de log de mensagens
 - rosparam set /turtlesim/background_b 0
 - rosparam get /turtlesim/background_b
 - rosservice call /reset
+
+## Serviços: comunicação direta entre dois processos
+### (rosservice [args, call, find, info, list, type, url])
+
+- Utiliza o paradigma requisição/resposta para trocar informações
+- É uma comunicação entre dois nodos
+- Comunicação bloqueante, o nodo que faz a requisição aguarda a resposta
+
+<b>EXEMPLO</b>
+- roscore
+- rosrun turtlesim turtlesim_node
+- rosservice call /spawn
+- rosservice call /reset
+
+# Tópicos: comunicação multicast entre vários processos
+### (topic [bw, echo, find, hz, info, list, pub, type])
+
+- Funciona como um barramento, onde os nodos trocam informações
+- Utiliza a semântica Anuncia/Pública/Se escreve (Advertise/Publish/Subscribe)
+- Mensagens fortemente tipadas conforme arquivos de descrição de mensagem do ROS
+- Comunicação não bloqueante
+- Pode haver múltiplos nodes publicando e se inscrevendo em um tópico
+
+<b>EXEMPLO</b>
+- roscore
+- rosrun turtlesim turtlesim_node
+- rosrun turtlesim turtle_teleop_key
+- rostopic pub /turtle1/cmd_vel geometry_msgs/Twist tab ...
+- rostopic pub -r 1 /turtle1/cmd_vel geometry_msgs/Twist tab ...
+- rosrun rqt_graph rqy_graph
+- rosmsg show geometry_msgd/Twist
 
