@@ -62,4 +62,11 @@ rosrun roscpp_tutorials talker
 rosrun roscpp_tutorials listener
 ```
 
+### Segundo teste
+
+Obs.: ativando o Turtlesim
+
+- Passo 01: roscore
+- Passo 02: rosrun turtlesim turtlesim_node
+
 Criação de um ROS Workspace
