@@ -1,0 +1,1 @@
+Como instalar o Ubuntu 20.04 junto com o windows 10 em dual boot
