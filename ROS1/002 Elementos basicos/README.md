@@ -12,17 +12,6 @@
 - <b>Mensagens</b>: arquivos de descrição de mensagem
 - <b>Launchs</b>: arquivos xml que especificam a execução de um sistema e seus parâmetros
 
-## Conceitos do ROS
-
-- O ROS é uma rede de processamento peer-to-peer
-- Conceitos básicos
-Master - nodo principal que gerencia a rede
-Nodo - processo de execução
-Serviço de parâmetros distribuídos - acessíveis por todos os nodos
-Serviços - comunicação direta entre dois processos
-Tópicos - comunicação multicast entre vários processos
-Bags - sistema de log de mensagens
-
 ## Master (roscore)
 
 - Elemento central do ROS

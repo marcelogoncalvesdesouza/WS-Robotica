@@ -7,12 +7,22 @@
 https://www.ros.org/
 ```
 
-## Características
+## Conceitos do ROS
 
 - Framework para desenvolvimento de software para robótica
 - Open source
 - Grande modularidade e compartilhamento
 - Comunidade ativa
+- O ROS é uma rede de processamento peer-to-peer
+
+## Conceitos básicos
+
+- Master - nodo principal que gerencia a rede
+- Nodo - processo de execução
+- Serviço de parâmetros distribuídos - acessíveis por todos os nodos
+- Serviços - comunicação direta entre dois processos
+- Tópicos - comunicação multicast entre vários processos
+- Bags - sistema de log de mensagens
 
 ## Manual
 
