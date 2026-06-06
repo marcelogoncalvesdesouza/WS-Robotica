@@ -7,7 +7,7 @@
 https://www.ros.org/
 ```
 
-## Conceitos do ROS
+## Características do ROS
 
 - Framework para desenvolvimento de software para robótica
 - <i>Open source</i>
