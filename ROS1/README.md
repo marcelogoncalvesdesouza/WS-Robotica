@@ -43,6 +43,8 @@ https://www.ros.org/
 - Raspberry Pi (C++)
 - Câmera (Python)
 
+#### Links
+
 - ROS Wiki
 ```
 https://wiki.ros.org
@@ -58,6 +60,10 @@ https://answers.ros.org
 - ROS Discourse
 ```
 https://discourse.ros.org
+```
+- Kobuki
+```
+https://robots.ros.org/kobuki/
 ```
 
 [Voltar](https://github.com/marcelogoncalvesdesouza/WS-Robotica/tree/main)
