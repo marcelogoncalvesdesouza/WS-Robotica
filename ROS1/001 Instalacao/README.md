@@ -12,7 +12,7 @@ https://releases.ubuntu.com/focal/ubuntu-20.04.6-desktop-amd64.iso
 https://wiki.ros.org/noetic/Installation/Ubuntu
 ```
 
-### COMANDOS
+### Comandos
 
 - Passo 01: configuração da lista de recursos
 ```

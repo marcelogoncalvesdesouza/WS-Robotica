@@ -11,7 +11,7 @@ source devel/setup.bash
 catkin_create_pkg meu_pacote roscpp rospy std_msgs
 ```
 - package.xml: Arquivo de manifesto do pacote;
-- CMakeLists: Informações dos códigos que precisarão serem compilados.
+- CMakeLists: Informações dos códigos que precisarão ser compilados.
 
 Compilar novamente o ws:
 ```

@@ -1,5 +1,7 @@
 [Voltar](https://github.com/marcelogoncalvesdesouza/WS-Robotica/tree/main/ROS1)
 
+## Funcionamento do ROS
+
 - <b>Nós (<i>nodes</i>)</b>: executáveis, processos, códigos que realizam alguma atividade, não necessariamente no mesmo sistema
 - <b>Tópicos (<i>topics</i>)</b>: forma de troca de informações (mensagens) entre os nós
 - <b>Serviços (<i>services</i>)</b>: interação entre nós de forma a solicitar uma ação ou dado com uma resposta, arquivos de descrição de serviços
