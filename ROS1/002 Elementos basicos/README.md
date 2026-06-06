@@ -4,7 +4,6 @@
 - <b>Tópicos (<i>topics</i>)</b>: forma de troca de informações (mensagens) entre os nós
 - <b>Serviços (<i>services</i>)</b>: interação entre nós de forma a solicitar uma ação ou dado com uma resposta, arquivos de descrição de serviços
 - <b>Pacotes (<i>packages</i>)</b>: unidade principal de organização do ROS, arquivos e códigos
-
 - <b>Metapacotes (<i>metapackages</i>)</b>: pacotes especializados que servem para representar um grupo de pacotes
 - <b>Package Manifest</b>: são arquivos xml com informações osbre um pacote
 - <b>Repositórios</b>: coleção de pacotes compartilhados
