@@ -15,12 +15,12 @@
 ## Exemplo
 - Dentro do /home criar a estrutura para o workspace:
 ```
-mkdir catkin_ws && cd catkin_ws && mkdir src && cd src
+mkdir catkin_ws && cd catkin_ws && mkdir src
 ```
-- Voltar para WS e compilar
+- Voltar para catkin_ws e compilar
 ```
 catkin_make
 ```
-Obs.: para compilar apenas m pacote dentro do WS utilizar --only-pkg-with-deps pkName
-
+Obs.:
+- para compilar apenas m pacote dentro do WS utilizar --only-pkg-with-deps pkName
 - source devel/setup.bash (o sistema reconhece a ws quando abrir um novo terminal)
