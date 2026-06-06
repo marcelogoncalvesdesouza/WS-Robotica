@@ -62,12 +62,14 @@ rosrun roscpp_tutorials talker
 rosrun roscpp_tutorials listener
 ```
 
-### Segundo teste
+- Passo 10: segundo teste em dois terminais - ativando o Turtlesim
 
-Obs.: ativando o Turtlesim
-
-- Passo 01: roscore
-- Passo 02: rosrun turtlesim turtlesim_node
+```
+roscore
+```
+```
+rosrun turtlesim turtlesim_node
+```
 
 ### Criando uma workspace
 
