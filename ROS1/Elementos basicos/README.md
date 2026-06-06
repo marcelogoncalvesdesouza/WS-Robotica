@@ -11,7 +11,7 @@
 - <b>Mensagens</b>: arquivos de descrição de mensagem
 - <b>Launchs</b>: arquivos xml que especificam a execução de um sistema e seus parâmetros
 
-### Criando uma workspace
+## Criando uma workspace
 
 - mkdir catkin_ws -> cd catkin_ws
 - mkdir src (pacotes da ws) -> cd src
@@ -20,7 +20,7 @@
 - ls (build, devel e src)
 - source devel/setup.bash (o sistema reconhece a ws)
 
-### Conceitos do ROS
+## Conceitos do ROS
 
 - O ROS é uma rede de processamento peer-to-peer
 - Conceitos básicos
@@ -75,7 +75,7 @@ Bags - sistema de log de mensagens
 - rosservice call /spawn
 - rosservice call /reset
 
-# Tópicos: comunicação multicast entre vários processos
+## Tópicos: comunicação multicast entre vários processos
 ### (topic [bw, echo, find, hz, info, list, pub, type])
 
 - Funciona como um barramento, onde os nodos trocam informações
