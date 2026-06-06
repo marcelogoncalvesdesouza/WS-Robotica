@@ -5,4 +5,22 @@ DOCUMENTÁRIO: How to start a Robot Revolution - RedHat
 Curso Introdução ao ROS
 # OK # Introdução ao Robot Operating System (ROS)
 # OK # O que é Robot Operating System (ROS)
-# OK # 
+# OK # Como aproveitar ao máximo o curso
+# OK # Como instalar o ROS
+# OK # Criando um ROS Workspace
+# OK # Criando um ROS Package
+# OK # Configurando o VSCode para o ROS
+# OK # Entendendo ROS Nós, Tópicos e Mensagens
+# OK # Criando um Nó ROS em C++
+# OK # Criando um Nó ROS em Python
+# OK # C
+# OK # C
+# OK # C
+# OK # C
+# OK # C
+# OK # C
+# OK # C
+# OK # C
+# OK # C
+# OK # C
+# OK # C
