@@ -10,10 +10,10 @@ https://www.ros.org/
 ## Conceitos do ROS
 
 - Framework para desenvolvimento de software para robótica
-- Open source
+- <i>Open source</i>
 - Grande modularidade e compartilhamento
 - Comunidade ativa
-- O ROS é uma rede de processamento peer-to-peer
+- O ROS é uma rede de processamento <i>peer-to-peer</i>
 
 ## Conceitos básicos
 

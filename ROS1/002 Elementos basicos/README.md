@@ -12,12 +12,13 @@
 - <b>Mensagens</b>: arquivos de descrição de mensagem
 - <b>Launchs</b>: arquivos xml que especificam a execução de um sistema e seus parâmetros
 
-## Master (roscore)
+## Master
+### (roscore)
 
 - Elemento central do ROS
 - Responsável pelo registro de nodos, tópicos, serviços e parâmetros da rede
 - A principal tarefa é permitir que os nodos se localizem
-- Garante uma comunicação direta (peer-to-peer) entre os nodos
+- Garante uma comunicação direta (<i>peer-to-peer</i>) entre os nodos
 
 ## Nodo
 ### (rosnode [cleanup, info, kill, list, machine, ping])
