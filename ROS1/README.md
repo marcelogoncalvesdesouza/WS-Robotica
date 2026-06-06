@@ -25,7 +25,7 @@ https://www.ros.org/
 ## O Simulador Físico: Gazebo
 - É o simulador principal. Ele simula a física do mundo real. 
 
-## O que faz:
+### O que faz:
 - <b>Cálculos</b>: Calcula gravidade, colisões, atrito e massa;
 - <b>Sensores</b>: Simula o que o robô "vê" ou "sente", como câmeras, scanners a laser (LiDAR), sensores ultrassônicos e GPS;
 - <b>Atuadores</b>: Simula motores, rodas, braços robóticos e articulações.
@@ -33,7 +33,7 @@ https://www.ros.org/
 ## A Ferramenta de Visualização: RViz
 - O RViz é a interface gráfica de monitoramento. 
 
-## O que faz:
+#### O que faz:
 - <b>Visualização</b>: Permite visualizar o que o robô está "pensando" e percebendo e mostra o modelo 3D do robô, mapas gerados pelo ambiente, rotas de navegação planejadas e nuvens de pontos.
 
 ## Espaço de trabalho (catkin_ws)

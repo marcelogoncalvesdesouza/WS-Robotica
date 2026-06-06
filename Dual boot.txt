@@ -1,1 +1,8 @@
 Como instalar o Ubuntu 20.04 junto com o windows 10 em dual boot
+
+DOCUMENTÁRIO: How to start a Robot Revolution - RedHat
+
+Curso Introdução ao ROS
+# OK # Introdução ao Robot Operating System (ROS)
+# OK # O que é Robot Operating System (ROS)
+# OK # 
