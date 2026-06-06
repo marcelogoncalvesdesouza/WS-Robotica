@@ -10,15 +10,6 @@
 - <b>Mensagens</b>: arquivos de descrição de mensagem
 - <b>Launchs</b>: arquivos xml que especificam a execução de um sistema e seus parâmetros
 
-## Criando uma workspace
-
-- mkdir catkin_ws -> cd catkin_ws
-- mkdir src (pacotes da ws) -> cd src
-- catkin_init_workspace -> ls -> cd .. -> ls
-- catkin_make (compilar o ws)
-- ls (build, devel e src)
-- source devel/setup.bash (o sistema reconhece a ws)
-
 ## Conceitos do ROS
 
 - O ROS é uma rede de processamento peer-to-peer

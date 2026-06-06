@@ -36,16 +36,6 @@ https://www.ros.org/
 #### O que faz:
 - <b>Visualização</b>: Permite visualizar o que o robô está "pensando" e percebendo e mostra o modelo 3D do robô, mapas gerados pelo ambiente, rotas de navegação planejadas e nuvens de pontos.
 
-## Espaço de trabalho (catkin_ws)
-- Pacotes: um package é como uma aplicação ROS é feita;
-- Cada pacote pode possuir uma ou mais aplicações que utiliza uma ou mais de uma linguagem;
-- A workspace é onde ficam os packages.
-
-## Estrutura de um WS
-- build: arquivos compilados;
-- devel: variáveis de ambiente;
-- src: pacotes e aplicações.
-
 ## Exemplo 01
 - Motores com enconders (C++)
 - Raspberry Pi (C++)
