@@ -16,8 +16,8 @@ https://www.ros.org/
 
 ## Manual
 
-- [Instalação](https://github.com/marcelogoncalvesdesouza/WS-Robotica/tree/main/ROS1/Instalacao)
-- [Elementos básicos](https://github.com/marcelogoncalvesdesouza/WS-Robotica/tree/main/ROS1/Elementos%20basicos)
+- [Instalação](https://github.com/marcelogoncalvesdesouza/WS-Robotica/tree/main/ROS1/001%20Instalacao)
+- [Elementos básicos](https://github.com/marcelogoncalvesdesouza/WS-Robotica/tree/main/ROS1/002%20Elementos%20basicos)
 
 ## Funcionamento
 
@@ -25,7 +25,7 @@ https://www.ros.org/
 - O ecossistema de simulação do ROS 1 é composto principalmente por duas ferramentas que trabalham juntas:
 
 ### O Simulador Físico: Gazebo
-- É o simulador principal. Ele simula a física do mundo real. 
+É o simulador principal. Ele simula a física do mundo real. 
 
 #### O que faz:
 - <b>Cálculos</b>: Calcula gravidade, colisões, atrito e massa;
