@@ -1,5 +1,5 @@
 [Voltar](https://github.com/marcelogoncalvesdesouza/WS-Robotica/tree/main/ROS1)
 
-# Introdução à Robótica Inteligente
+# Simulador Gazebo
 
 [Voltar](https://github.com/marcelogoncalvesdesouza/WS-Robotica/tree/main/ROS1)
