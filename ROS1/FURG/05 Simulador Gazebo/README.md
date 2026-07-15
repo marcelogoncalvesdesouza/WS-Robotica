@@ -2,6 +2,11 @@
 
 # Simulador Gazebo
 
+- Git no Ubuntu 20.04
+sudo apt update && sudo apt install git -y
+
+Possível problema de 
+
 Turtlebot3 wiki: http://wiki.ros.org/Robots/Turtlebot
 
 Pacotes Turtlebot3:
