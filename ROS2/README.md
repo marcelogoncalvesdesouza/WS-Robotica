@@ -2,6 +2,9 @@
 
 # ROS 2 (<i>Robot Operating System 2</i>)
 
+Ricardo Grando - FURG
+Minicurso ROS2: https://www.youtube.com/watch?v=7T3lgJEQ8PE&list=PLhxZVyws6Ytssb_CJA5cKxY5IxecOvJao
+
 ## Características
 
 ### Arquitetura de Comunicação
